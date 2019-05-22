@@ -28,10 +28,10 @@
 			if ("$text[$i]" == "$arr[$j]") {
 				# code...
 				$a = $j + $shift ;
-				echo "$arr[$a]";
-						
+				echo "$arr[$a]";	
 			}			
-		}echo "<br>";
+		}
+		echo "<br>";
 
 	}
 
