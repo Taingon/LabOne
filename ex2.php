@@ -25,7 +25,7 @@
 
 			if ("$text[$i]" == "$arr[$j]") {
 				# code...
-				$a = $j - $shift ;
+				$a = ($j - $shift) % 26 ;
 				echo "$arr[$a]";	
 			}			
 		}

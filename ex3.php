@@ -35,6 +35,7 @@
 
 	for ($i=0; $i < strlen($text); $i++) {
 		echo "$text[$i]";
+		$random = array_rand($arr,3);
 		echo $arr[$random[0]];
 		echo $arr[$random[1]];
 		echo $arr[$random[2]];
